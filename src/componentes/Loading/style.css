@@ -1,0 +1,8 @@
+.home-conteiner-loading {
+    width: 100%;
+    height: 100%;
+    background: #2541B2;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

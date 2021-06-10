@@ -1,0 +1,43 @@
+.city-conteiner {
+    width: 21%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    border: 1px solid #E6E6F0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.city-conteiner img {
+    width: 100%;
+    height: 60%;
+    object-fit: cover ;
+}
+figcaption {
+    width: 100%;
+    height: 40%;
+    padding-left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.details-name {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #3C3D40;
+}
+.details-state {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #617480;
+}

@@ -1,0 +1,51 @@
+.confirmation-conteiner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #2541B2;
+}
+.confirmation-conteiner span {
+    margin-top: 50px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+.confirmation-conteiner div {
+    width: 279px;
+    height: 48px;
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-cancel,
+.btn-confirm {
+    width: 127px;
+    height: 48px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border: unset;
+    cursor: pointer;
+}
+.btn-cancel {
+    background: #C04A3F;
+    border-radius: 5px;
+}
+.btn-cancel:hover {
+    background: #d66258;
+}
+.btn-confirm {
+    background: #60D651;
+    border-radius: 5px;
+}
+.btn-confirm:hover {
+    background: #86ec78;
+}

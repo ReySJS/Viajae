@@ -1,0 +1,9 @@
+.city-list-conteiner {
+    width: 100%;
+    height: 85%;
+    padding: 0 5%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: space-around;
+}

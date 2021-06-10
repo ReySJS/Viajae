@@ -1,0 +1,11 @@
+.error-title {
+    margin-top: 100px;
+    font-size: 64px;
+    color: #313546;
+    text-align: center;
+}
+.error-info {
+    font-size: 36px;
+    text-align: center;
+    color: #313546;  
+}
